@@ -1,0 +1,74 @@
+#ugly-drums {
+    font-variant: small-caps;
+    border: 1px solid black;
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    top: 150px;
+    right: 950px;
+}
+
+#controls-map {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#ugly-crash {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#ugly-crush {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#ugly-tom1 {
+    position: absolute;
+    right: 150px;
+    top: 50px;
+}
+#ugly-tom2 {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+#ugly-tom3 {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+#ugly-tom4 {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+
+#ugly-hihat {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+}
+#ugly-shaker {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+#ugly-snare {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+#ugly-stick {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+#ugly-kick {
+    position: absolute;
+    left: 70px;
+    bottom: 0px;
+}
