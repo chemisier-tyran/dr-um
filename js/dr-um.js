@@ -34,8 +34,10 @@ $(function () {
     $(document).keyup(function (e) {
         console.log(e.which);
         switch (e.which) {
-            case 188:
-                snd("#tz");
+            case 77:
+//                snd("#tz");
+                var hihatSelected = $("#hihat-selector").val();
+                snd(hihatSelected);
                 uglyFeedback("#ugly-hihat");
 //                $("#tz")[0].play();
                 break;

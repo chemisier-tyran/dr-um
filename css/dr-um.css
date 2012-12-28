@@ -14,7 +14,7 @@
 }
 
 .ugly-element:hover {
-    cursor: hand;
+    cursor: pointer;
 }
 
 #ugly-crash {
