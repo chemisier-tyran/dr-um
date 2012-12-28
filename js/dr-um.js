@@ -21,6 +21,16 @@ $(function () {
         $(uglyElement).css("color", "red");
     }
 
+    $(".ugly-element").mouseover( function(e) {
+        var elementSelected = $(e.target).text();
+        var sndSelected = $("#" + elementSelected + "-selector").val();
+
+        snd(sndSelected);
+        uglyFeedback("#ugly-" + elementSelected);
+
+    });
+
+//    TODO refactor it like the hover one
     $(document).keyup(function (e) {
         console.log(e.which);
         switch (e.which) {
@@ -30,12 +40,16 @@ $(function () {
 //                $("#tz")[0].play();
                 break;
             case 84:
-                snd("#tchk");
+//                snd("#tchk");
+                var snareSelected = $("#snare-selector").val();
+                snd(snareSelected);
                 uglyFeedback("#ugly-snare");
 //                $("#tchk")[0].play();
                 break;
             case 32:
-                snd("#poom");
+                var kickSelected = $("#kick-selector").val();
+                snd(kickSelected);
+//                snd("#poom");
                 uglyFeedback("#ugly-kick");
 //                $("#poom")[0].play();
                 break;
@@ -81,13 +95,13 @@ $(function () {
 //                uglyFeedback("#ugly-tom4");
                 break;
 
-
-            case 71:
-                snd("#snare2");
-                break;
-            case 72:
-                snd("#snare3");
-                break;
+//
+//            case 71:
+//                snd("#snare2");
+//                break;
+//            case 72:
+//                snd("#snare3");
+//                break;
 
         }
     });

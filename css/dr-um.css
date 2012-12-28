@@ -13,6 +13,10 @@
     margin-top: 50px;
 }
 
+.ugly-element:hover {
+    cursor: hand;
+}
+
 #ugly-crash {
     position: absolute;
     left: 0px;
