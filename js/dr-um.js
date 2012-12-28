@@ -34,7 +34,7 @@ $(function () {
     $(document).keyup(function (e) {
         console.log(e.which);
         switch (e.which) {
-            case 77:
+            case 188:
 //                snd("#tz");
                 var hihatSelected = $("#hihat-selector").val();
                 snd(hihatSelected);
